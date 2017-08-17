@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-alpn-client-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-alpn-server-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-annotations-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-cdi-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-client-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-continuation-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-deploy-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-http-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-io-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-jaas-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-jaspi-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-jmx-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-jndi-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-plus-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-proxy-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-quickstart-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-rewrite-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-schemas-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-security-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-server-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-servlet-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-servlets-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-util-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-webapp-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/jetty-xml-9.2.9.v20150224.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/jetty-distribution-9.2.9.v20150224/jetty-distribution-9.2.9.v20150224/lib/servlet-api-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/amazon-pay-sdk-java-master/amazon-pay-sdk-java-master/dist/amazon-pay-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/java-json.jar/java-json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/commons-codec-1.10-bin/commons-codec-1.10/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/apache-log4j-2.8.2-bin/apache-log4j-2.8.2-bin/log4j-1.2-api-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jeffrey Fabian/Desktop/Dev_Projects/Java_Libraries/apache-log4j-2.8.2-bin/apache-log4j-2.8.2-bin/log4j-core-2.8.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
