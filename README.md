@@ -1,6 +1,6 @@
-# Project Title
+# Amazon Pay Servlet
 
-One Paragraph of project description goes here
+As a part of my internship, I was matched with [Convessa](http://convessa.com/) - an enterprise-grade voice platform that enables the development of extensive, robust and scalable voice applications. One of my assigned tasks was to research, evaluate and implement a payment service and checkout flow for the company's showcase voice app [Mastermind](http://mastermindbot.com). This project creates this flow (front-end & back-end) according to Amazon Payment's Express Integration (hosted payment).
 
 ## Getting Started
 
