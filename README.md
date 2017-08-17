@@ -47,7 +47,7 @@ Even though this integration was tested locally (Amazon Pay Sandbox Mode), there
 - [Amazon Pay Java SDK](https://github.com/amzn/amazon-pay-sdk-java)
 - [Jetty](http://www.eclipse.org/jetty/download.html)
 
-## Flow Diagram
+[//]: # (## Flow Diagram)
 
 ## Deployment
 
