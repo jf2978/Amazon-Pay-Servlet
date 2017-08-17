@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <script type='text/javascript'>
+            window.onAmazonLoginReady = function() {
+                amazon.Login.setClientId('amzn1.application-oa2-client.7f1a9cad2fca484dbd2b9b28144f87e1');
+            };
+        </script>   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+    <body>
+    <div id="AmazonPayButton"></div>
+    <div id="sellerId" data-ap-seller-id='<SELLER-ID>'></div>
+    <script type="text/javascript">
+        window.onAmazonPaymentsReady = function(){
+            OffAmazonPayments.Button("AmazonPayButton", sellerId, {
+                type: "hostedPayment",
+                color: "DarkGray",
+                size: "medium",
+                hostedParametersProvider: function(done){
+                    $.getJSON("<SIGNED-PARAMETERS-JSON-ENDPOINT>", function(data) {
+                        done(data);
+                        })
+                },
+                onError: function(errorCode) {
+                    alert("Something went wrong...")
+                    }
+            })
+        };
+    </script>
+    <script async='async' type='text/javascript' 
+        src='https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js'>
+    </script>
+    </body>
+</html>
