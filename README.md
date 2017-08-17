@@ -4,15 +4,43 @@ As a part of my internship, I was matched with [Convessa](http://convessa.com/) 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Files
+1. **button.html**
+
+HTML containing a simple webpage that holds the JavaScript code for the custom Amazon Pay button - uses jQuery to hit the ButtonServlet to retrieve JSON parameters
+
+2. **ButtonServlet.java**
+
+Servlet used to send JSON parameters to button.html
+
+3. **AmazonParameters.java**
+
+Provides Amazon credentials + parameters
+
+4. **AmazonSignature.java**
+
+Calculates + encrypts signature with secret key to verify requests
+
+5. **AmazonPayAPI.java**
+
+Configures + wraps the Amazon Pay SDK for use with the Mastermind account
+
+6. **ChaChing.java**
+
+Servlet used to handle the return URL (GET) and Amazon notifications (POST)
+
+7. **PaymentProcessor.java**
+
+Object class used to process results from both the GET and POST
+
+8. **MMPaymentServer.java**
+Main method that instantiates a SSL Jetty Server with the servlets intact
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Even though this integration was tested locally (Amazon Pay Sandbox Mode), there are a few things that have to be set up in order to effectively test each aspect of the checkout flow.
 
 ### Installing
 
